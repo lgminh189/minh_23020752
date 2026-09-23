@@ -1,0 +1,10 @@
+draw_circle_node:
+  ros__parameters:
+    planning_group: "ur_manipulator"
+    end_effector_link: "tool0"
+    base_frame: "base_link"
+    circle_radius: 0.04
+    circle_points: 96
+    top_clearance: 0.16
+    eef_step: 0.003
+    workspace_search_step: 0.05

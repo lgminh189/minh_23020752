@@ -1,0 +1,20 @@
+write_m_node:
+  ros__parameters:
+    base_frame: "base_link"
+    planning_group: "ur_manipulator"
+    end_effector_link: "tool0"
+    letter_width: 0.12
+    letter_height: 0.10
+    top_clearance: 0.12
+    pen_lift: 0.04
+    eef_step: 0.003
+    velocity_scale: 0.15
+    acceleration_scale: 0.10
+    planning_time: 6.0
+    planning_attempts: 3
+    workspace_search_step: 0.05
+    position_tolerance: 0.003
+    orientation_tolerance: 0.12
+    state_wait_seconds: 60.0
+    project_marker_to_floor: false
+    floor_marker_z: 0.012
